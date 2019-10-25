@@ -1,9 +1,10 @@
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #141518;
 }
 
 li {
@@ -23,8 +24,52 @@ li a:hover {
   background-color: #4CAF50;
 }
 
-
-
 img {
   width: 35%;
+}
+
+.Arkpic {
+  width: 20%;
+  height: 20%;
+}
+
+div {
+  border: 2px Solid Black;
+  border-radius: 5px;
+background-color: Black;
+}
+
+.sr-only {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+}
+
+
+footer {
+  grid-area: footer;
+  background-color: Black;
+}
+
+.Textcolor {
+  color: white;
+}
+
+footer .textcolor {
+  color: white;
+}
+
+main {
+  background-color: Black;
+}
+
+Header {
+  background-color: Black;
+}
+
+.background {
+  background-color: Black;
 }
