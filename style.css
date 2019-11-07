@@ -28,13 +28,17 @@ img {
   width: 35%;
 }
 
-.Arkpic {
+.PicCh {
   width: 20%;
   height: 20%;
 }
 
+.TextCh {
+
+}
+
 div {
-  border: 2px Solid Black;
+  border: 2px solid red;
   border-radius: 5px;
 background-color: Black;
 }
@@ -48,7 +52,6 @@ background-color: Black;
   overflow: hidden;
 }
 
-
 footer {
   grid-area: footer;
   background-color: Black;
@@ -58,18 +61,16 @@ footer {
   color: white;
 }
 
-footer .textcolor {
-  color: white;
-}
-
-main {
-  background-color: Black;
-}
-
-Header {
-  background-color: Black;
-}
-
 .background {
   background-color: Black;
+}
+
+p {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+header {
+  border: 2px solid green;
+  border-radius: 5px;
 }
