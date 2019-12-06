@@ -5,6 +5,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #141518;
+
 }
 
 li {
@@ -33,14 +34,9 @@ img {
   height: 20%;
 }
 
-.TextCh {
-
-}
-
 div {
-  border: 2px solid red;
-  border-radius: 5px;
-background-color: Black;
+  text-align: center;
+  color: white;
 }
 
 .sr-only {
@@ -52,25 +48,38 @@ background-color: Black;
   overflow: hidden;
 }
 
+p {
+  font-family: 'Comfortaa', cursive;
+}
+
 footer {
   grid-area: footer;
   background-color: Black;
+  border: 2px solid red;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 200px;
 }
 
-.Textcolor {
-  color: white;
+.border {
+  border: 2px solid red;
+  border-radius: 5px;
 }
 
 .background {
   background-color: Black;
 }
 
-p {
-  border: 2px solid red;
-  border-radius: 5px;
-}
-
 header {
   border: 2px solid green;
   border-radius: 5px;
+  margin-bottom: 200px;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin {
+  margin-bottom: 200px;
 }
