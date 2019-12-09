@@ -52,13 +52,19 @@ p {
   font-family: 'Comfortaa', cursive;
 }
 
+h1 {
+  font-family: 'Sanchez', serif;
+}
+
+
+
 footer {
   grid-area: footer;
   background-color: Black;
   border: 2px solid red;
   border-radius: 5px;
   color: white;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
 }
 
 .border {
@@ -78,6 +84,16 @@ header {
 
 .flex {
   display: flex;
+ grid-area: menu;
+}
+
+.flex_1 {
+  display: flex;
+  grid-area: right;
+}
+
+.flex_2 {
+
 }
 
 .margin {
