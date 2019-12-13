@@ -82,18 +82,18 @@ header {
   margin-bottom: 200px;
 }
 
-.flex {
-  display: flex;
- grid-area: menu;
+.grid {
+  width: 100vw;
+  height: 200vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
-.flex_1 {
-  display: flex;
-  grid-area: right;
-}
-
-.flex_2 {
-
+.child {
+  font: sans-serif;
+  padding: 10px;
+  text-align: center;
 }
 
 .margin {
